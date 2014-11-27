@@ -62,8 +62,8 @@ module.exports = function(config) {
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: true,
-    reporters = ['dots', 'junit'],
-    junitReporter = {
+    reporters: ['dots', 'junit'],
+    junitReporter: {
         outputFile: 'test-results.xml'
     }
   });
